@@ -1,4 +1,4 @@
-// ¹è¿­ÀÇ ¿ø¼Ò, »öÀÎ ºÎ¿©
+// ë°°ì—´ì˜ ì›ì†Œ, ìƒ‰ì¸ ë¶€ì—¬
 
 package javatutorials;
 
@@ -6,13 +6,20 @@ public class array {
 
 	public static void main(String[] args) {
 		
-		String[] classGroup = { "ÃÖÁøÇõ", "ÃÖÀ¯ºó", "ÇÑÀÌ¶÷", "ÀÌ°íÀ×"};
-		// Å¸ÀÔ[]  ¹è¿­ º¯¼ö¸í        {	0		1		2		3 }
-		//							0 = ¿ø¼Ò (element)
-		System.out.println(classGroup[0]);  // 0  = index (»öÀÎ)
+		String[] classGroup = { "ìµœì§„í˜", "ìµœìœ ë¹ˆ", "í•œì´ëŒ", "ì´ê³ ì‰"};
+		// íƒ€ì…[]  ë°°ì—´ ë³€ìˆ˜ëª…        {	0		1		2		3 }
+		//							0 = ì›ì†Œ (element)
+		System.out.println(classGroup[0]);  // 0  = index (ìƒ‰ì¸)
 		System.out.println(classGroup[1]);	// 1  =  "
 		System.out.println(classGroup[2]);  //	
 		System.out.println(classGroup[3]);
 	}
 
 }
+
+/* ì‹¤í–‰
+ìµœì§„í˜
+ìµœìœ ë¹ˆ
+í•œì´ëŒ
+ì´ê³ ì‰
+*/
