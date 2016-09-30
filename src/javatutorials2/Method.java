@@ -9,7 +9,7 @@ public class Method {
 /* public : 상위클래스가 같다는 전제하에 모든 클래스들은 이 메소드를 사용가능
  	void  : 반환하겠다 (Return)
 numbering() : 메소드 이름
-
+ffff
 define 메소드(인수) 인수의 개수는 호출부분의 메소드()안 인수 개수는 같아야함
  */
 		int i = 0;
