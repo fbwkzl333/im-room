@@ -10,6 +10,7 @@ public class array4 {
 			//       콜론 뒤의 데이터값을 동작할때 마다 하나씩
 			//     e에 담아주세요
 			System.out.println(e+"이 상담을 받았습니다");
+			System.out.println(e+"이 상담을 받았습니다");
 		}
 
 	}
