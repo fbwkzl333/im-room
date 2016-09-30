@@ -1,16 +1,23 @@
-// �迭 for��
+// 배열 for문
 
 package javatutorials;
 
 public class array3 {
 
 	public static void main(String[] args) {
-		String[] members = { "������", "������", "���̶�"};
+		String[] members = { "최진혁", "최유빈", "한이람"};
 		for (int i = 0; i < members.length; i++) {
 			String member = members [i];
-			System.out.println(member + "�� ����� �޾ҽ��ϴ�");
+			System.out.println(member + "이 상담을 받았습니다");
 		}
 
 	}
 
 }
+
+
+/* 실행
+최진혁이 상담을 받았습니다
+최유빈이 상담을 받았습니다
+한이람이 상담을 받았습니다
+*/
