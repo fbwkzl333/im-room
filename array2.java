@@ -1,35 +1,36 @@
-// .length ´Â ¹è¿­ÀÇ ¿ø¼Ò °³¼ö
+// .length ëŠ” ë°°ì—´ì˜ ì›ì†Œ ê°œìˆ˜
 
 package javatutorials;
 
 public class array2 {
 
 	public static void main(String[] args) {
-	// String[] classGroup = { "ÃÖÁøÇõ", "ÃÖÀ¯ºó", "ÇÑÀÌ¶÷", "ÀÌ°íÀ×"};
+	// String[] classGroup = { "ìµœì§„í˜", "ìµœìœ ë¹ˆ", "í•œì´ëŒ", "ì´ê³ ì‰"};
 		String[] classGroup = new String[4];
-	//		¹®ÀÚ¿­ ¹è¿­ Á¤ÀÇ      = ÀÎ½ºÅÏ½º »ı¼º[4°³(length)]
-		classGroup[0] = "ÃÖÁøÇõ";  // [0] = "" Á¤ÀÇ
-		System.out.println(classGroup.length);  // ¹è¿­.¹è¿­ÀÌ ´ãÀ»¼ö ÀÖ´Â ¿ø¼ÒÀÇ °³¼ö(4)
-		//	length =[] ¾È¿¡ ¸î°³°¡ ´ã°ÜÁú ¼ö ÀÖ´À³Ä, ´ã°Ü ÀÖ´À³Ä
-		//	¿ø¼Ò °³¼ö
+	//		ë¬¸ìì—´ ë°°ì—´ ì •ì˜      = ì¸ìŠ¤í„´ìŠ¤ ìƒì„±[4ê°œ(length)]
+		classGroup[0] = "ìµœì§„í˜";  // [0] = "" ì •ì˜
+		System.out.println(classGroup.length);  // ë°°ì—´.ë°°ì—´ì´ ë‹´ì„ìˆ˜ ìˆëŠ” ì›ì†Œì˜ ê°œìˆ˜(4)
+		//	length =[] ì•ˆì— ëª‡ê°œê°€ ë‹´ê²¨ì§ˆ ìˆ˜ ìˆëŠëƒ, ë‹´ê²¨ ìˆëŠëƒ
+		//	ì›ì†Œ ê°œìˆ˜
 		
 		/* length = 4
-		 * element = ÃÖÁøÇõ,ÃÖÀ¯ºó,ÇÑÀÌ¶÷,ÀÌ±¸À×
+		 * element = ìµœì§„í˜,ìµœìœ ë¹ˆ,í•œì´ëŒ,ì´êµ¬ì‰
 		 * index = 0,1,2,3
 		 */
 		
-		classGroup[1] = "ÃÖÀ¯ºó";  
+		classGroup[1] = "ìµœìœ ë¹ˆ";  
 		System.out.println(classGroup.length);  
-		classGroup[2] = "ÇÑÀÌ¶÷";  
+		classGroup[2] = "í•œì´ëŒ";  
 		System.out.println(classGroup.length);
-		classGroup[3] = "ÀÌ°íÀ×";  
+		classGroup[3] = "ì´ê³ ì‰";  
 		System.out.println(classGroup.length);
 	}
 
 }
 
-/* ÄÄÆÄÀÏ ½ÇÇà : 
+/* ì»´íŒŒì¼ ì‹¤í–‰ : 
 		4
 		4
 		4
-		4		*/
+		4		
+*/
