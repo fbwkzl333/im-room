@@ -21,3 +21,7 @@ public class Method2 {
 	}
 
 }
+
+/* ½ÇÇà
+ * 1234
+ */
